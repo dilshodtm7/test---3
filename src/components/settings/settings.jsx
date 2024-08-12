@@ -36,7 +36,7 @@ const Settings = ({data,loading,myId,fetchAccountData}) => {
     
    
   const currentDate = new Date();
-  currentDate.setMinutes(currentDate.getMinutes() + 1);
+   currentDate.setHours(currentDate.getHours() + 8);
   const newPostDate = currentDate.toISOString();
 
 
