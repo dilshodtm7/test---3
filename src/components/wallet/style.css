@@ -1,0 +1,173 @@
+.wallet-boost {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-boost {
+  margin-top: 15px;
+  width: 70%;
+  height: 40px;
+  background-color: #0098e9;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  font-size: 26px;
+}
+.transaction {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.transaction-text {
+  color: white;
+  font-size: 22px;
+}
+
+.history-container {
+  margin-top: 30px !important;
+  display: flex;
+  color: white;
+  width: 100%;
+  height: 100%;
+  background-color: #1e2c3a;
+  border-radius: 20px;
+}
+.icon-wallet {
+  font-size: 32px;
+  padding: 5px;
+}
+.container-image {
+  background-color: #008aff;
+  border-radius: 15px;
+  margin: 5px;
+}
+.balance-task {
+  margin-top: 10px !important;
+  display: flex;
+  flex-direction: column;
+}
+.pilus-task {
+  margin-top: 10px !important;
+  color: greenyellow;
+}
+
+.history-main-container {
+  height: calc(100vh - 90px);
+  background-color: #fff;
+}
+
+.btn-connect {
+  margin-top: 15px;
+  width: 90%;
+  height: 40px;
+  background-color: #0098e9;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.wallet-connects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.connect-text {
+  color: white;
+  font-size: 22px;
+}
+
+.balance-text-title {
+  color: #fabb16;
+  font-size: 22px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.wallet-hr {
+  width: 80%;
+  height: 1px;
+  background-color: rgb(71, 71, 71);
+  border: none !important;
+  margin: 20px auto;
+}
+.airdrop-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.balance-wallet-span {
+  color: #fabb16;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.wallets-balances {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.wallets-balances {
+  width: 90%;
+  gap: 10px;
+}
+.usdt {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #1e2c3a;
+  border-radius: 20px;
+}
+.balance-wallet-text {
+  margin-bottom: 20px;
+}
+
+.balance-wallet {
+  margin-bottom: 100px;
+}
+
+.coin {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.ton-airdop{
+  width: 90%;
+  margin: 20px auto;
+  display: block;
+  color: white;
+  font-size: 18px;  
+
+}
+
+.airdrop{
+  color: rgb(49, 212, 49);
+  margin-right: 10px;
+}
+.airdrops{
+  color: rgb(238, 218, 42);
+  margin-right: 10px;
+}

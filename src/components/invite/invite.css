@@ -1,0 +1,199 @@
+.invite-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.invite {
+  margin-top: 20px;
+  width: 90%;
+}
+
+.invite-text {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
+
+.invite-text-span {
+  color: #31a6f5;
+  font-size: 14px;
+}
+
+.invite-btn {
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  background-color: #31a6f5;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  font-size: 16px;
+}
+.copy-btn {
+  margin-top: 10px;
+  width: 20%;
+  height: 40px;
+  background-color: #205375;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  font-size: 22px;
+}
+
+.invite-link-title {
+  color: white;
+  font-size: 20px;
+}
+.invite-link-input {
+  margin-top: 10px;
+  width: 90%;
+  height: 40px;
+  background-color: #1e2c3a;
+  color: #fff;
+  border-radius: 15px;
+  border: none;
+  font-size: 16px;
+
+  padding-left: 10px;
+  margin-right: 10px;
+}
+.copy-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+}
+
+.invite-hr {
+  margin-top: 10px;
+  width: 90%;
+  border: 1px solid #1e2c3a;
+}
+
+.friends-list {
+  margin-top: 10px;
+  width: 90%;
+  height: 100%;
+  border-radius: 15px;
+  border: none;
+  font-size: 18px;
+  margin: 0 auto;
+  color: #fff;
+}
+.friends-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.referal-icon {
+  font-size: 30px !important;
+}
+
+.referal-balance-img {
+  width: 25px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.referal-balance {
+  margin-left: 10px;
+  color: rgb(255, 251, 0);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.friends-list-container {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+
+  background-color: #1e2c3a;
+}
+.image {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+}
+.name {
+  color: #31a6f5;
+}
+
+.referal-balance-text {
+  font-size: 16px;
+}
+.friends-list-hr {
+  margin-top: 0px;
+  width: 90%;
+  border: none;
+  height: 1px;
+  background-color: #eeeeee;
+}
+
+.claims {
+  background-color: #1e2c3a;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.referal-claims {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 18px;
+}
+.btn-claim {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.claim-btn {
+  background-color: #31a6f5;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  width: 40%;
+  height: 40px;
+  font-size: 18px;
+}
+.claim-hr {
+  height: 10px;
+  width: 1px;
+  border: none;
+  background-color: #ffffff;
+}
+.friends-list-title {
+  color: white;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.claims-title {
+  color: white;
+  font-size: 20px;
+}
+.bonus-ref {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
