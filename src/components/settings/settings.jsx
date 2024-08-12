@@ -8,7 +8,7 @@ const Settings = ({data,loading,myId,fetchAccountData}) => {
   const [result, setResult] = useState(null);
   const [spinning, setSpinning] = useState(false);
 
-  const newspin = "http://localhost:9090/auth/newspin";
+  const newspin = "https://myname-6g8f.onrender.com/auth/newspin";
 
   // Define the roulette wheel numbers and styles
   const bonus = [
