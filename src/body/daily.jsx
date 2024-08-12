@@ -3,7 +3,7 @@ import CoinIcon from "../assets/coin-icon.jpg";
 import { ToastContainer, toast } from "react-toastify";
 
 const daily = ({ data, myId, fetchAccountData }) => {
-  const updatelastDate = "http://localhost:9090/auth/bydate";
+  const updatelastDate = "https://myname-6g8f.onrender.com/auth/bydate";
 
   const dailyBonuses = [
     { id: 1, day: 1, amount: 100 },
