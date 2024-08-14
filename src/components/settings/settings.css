@@ -108,6 +108,9 @@ background-color: transparent !important;
     gap: 15px;
     
 }
+.line{
+    width: 80%;
+}
 
 .overs-roulete{
     position: fixed;
@@ -127,4 +130,86 @@ background-color: transparent !important;
 .claim-span{
     font-size: 18px;
 }
+.daily-question {
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .question-text {
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .crossword {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 5px;
+  }
+  
+  .crossword-input {
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: background-color 0.5s ease;
+    background-color: white; /* Default white background */
+    border: none;
 
+  }
+  
+  .default {
+    background-color: white; /* Default color */
+  }
+  
+  .written {
+    background-color: yellow; /* Background after input */
+  }
+  
+  .correct {
+    background-color: green;
+    color: white;
+  }
+  
+  .incorrect {
+    background-color: red;
+    color: white;
+  }
+  
+  .crossword-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .crossword-btn, .crossword-btn-enter {
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+    background-color: #0098e9;
+    border: none;
+  }
+  
+  .crossword-btn.active {
+    background-color: lightgray; /* Change color on click */
+    transform: scale(1.1); /* Slightly enlarge the button */
+  }
+  
+  .crossword-btn-enter {
+    width: 60px;
+  }
+  
+  .message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: red; /* Default message color, adjust as needed */
+  }
+  
+  
+  
